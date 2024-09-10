@@ -21,13 +21,13 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="rbrune/android" />
+  <project path="android" name="skiman6010/android" />
 
 
   <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" remote="github" revision="cm-10.2" />
-  <project path="device/google/steelhead" name="rbrune/android_device_google_steelhead" />
-  <project path="kernel/google/steelhead" name="rbrune/android_kernel_google_steelhead" />
-  <project path="frameworks/native" name="rbrune/android_frameworks_native" groups="pdk" />
+  <project path="device/google/steelhead" name="skiman6010/android_device_google_steelhead" />
+  <project path="kernel/google/steelhead" name="skiman6010/android_kernel_google_steelhead" />
+  <project path="frameworks/native" name="skiman6010/android_frameworks_native" groups="pdk" />
 
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
@@ -307,7 +307,7 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  
+
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
@@ -492,7 +492,7 @@
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />  
+  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
